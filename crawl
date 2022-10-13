@@ -1,0 +1,3 @@
+import yfinance as yf
+
+df = yf.Ticker("^DJI").history(period="1mo")
