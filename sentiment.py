@@ -18,6 +18,8 @@ client = language_v1.LanguageServiceClient()
 
 filename = open('data.txt', 'w')
 
+##  In this part, decide how to sort the data ##
+
 text = []
 for i in range(7):
     tmp = []
@@ -27,6 +29,8 @@ for i in range(7):
 
     text.append(' '.join(tmp))
 
+##  In this part, decide how to sort the data ##    
+    
 sentiment_score = []
 
 
