@@ -11,3 +11,8 @@ sentiment.py : First enter your own token, and decide how you want to sort the d
 
 
 figure.py : In this file, use yfinance library to crawl the stock data you want to observe. It will generate a figure to compare the trend. Because twitter API can only catch last 100 tweets, it may not be enough data to evaluate the relationship with stock price. In the future, maybe add more parameters into consideration to compare the trend.
+
+
+The figure shows the example of a stock price of google and its relationship using sentiments analysis.
+
+![image](https://github.com/Zlchen11/EC_601_project2/blob/6dca4fbbb1e0190effdcc48aed4790b771c6df53/example.png)
